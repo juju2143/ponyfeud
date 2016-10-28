@@ -1,0 +1,64 @@
+body
+{
+  background-color: rgb(229,240,255);
+}
+.x0
+{
+  background-image: url("Resources/Crystal Castle/panelbg.png");
+}
+.x1
+{
+  background-image: url("Resources/Crystal Castle/panelbgx.png");
+}
+.x2
+{
+  background-image: url("Resources/Crystal Castle/panelbgxx.png");
+}
+.x3
+{
+  background-image: url("Resources/Crystal Castle/panelbgxxx.png");
+}
+.score
+{
+  background-image: url("Resources/Crystal Castle/pointsBackground.png");
+}
+.answer:nth-of-type(8n+1)
+{
+  background-image: url("Resources/Crystal Castle/background1.png");
+}
+.answer:nth-of-type(8n+2)
+{
+  background-image: url("Resources/Crystal Castle/background2.png");
+}
+.answer:nth-of-type(8n+3)
+{
+  background-image: url("Resources/Crystal Castle/background3.png");
+}
+.answer:nth-of-type(8n+4)
+{
+  background-image: url("Resources/Crystal Castle/background4.png");
+}
+.answer:nth-of-type(8n+5)
+{
+  background-image: url("Resources/Crystal Castle/background5.png");
+}
+.answer:nth-of-type(8n+6)
+{
+  background-image: url("Resources/Crystal Castle/background6.png");
+}
+.answer:nth-of-type(8n+7)
+{
+  background-image: url("Resources/Crystal Castle/background7.png");
+}
+.answer:nth-of-type(8n+8)
+{
+  background-image: url("Resources/Crystal Castle/background8.png");
+}
+#answers .shown
+{
+  background-image: url("Resources/Crystal Castle/answerBackground.png");
+}
+#bonus
+{
+  background-image: url("Resources/Crystal Castle/pointModBackground.png");
+}

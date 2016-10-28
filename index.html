@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pony Feud</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link id="theme" rel="stylesheet" href="twicastle.css" />
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="config.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body class="x0">
+        <nav>
+            <ul>
+                <li>
+                    <ul>
+                        <li><a href="javascript:newGame()">New Game</a></li>
+                        <li>
+                            <ul id="surveys"></ul>
+                            Load Survey</li>
+                    </ul>
+                    File</li>
+                <li>
+                    <ul>
+                        <li><a href="javascript:addToScore('#left')">Add to Left</a></li>
+                        <li><a href="javascript:addToScore('#right')">Add to Right</a></li>
+                        <li><a href="javascript:strike()">Add Incorrect Answer</a></li>
+                        <li>Multiplier: <input type="number" id="multiplier" value="1" size="3" /></li>
+                    </ul>
+                    Points</li>
+                <li>
+                    <ul id="colorschemes"></ul>
+                    Color Scheme</li>
+                <li>
+                    <ul>
+                        <li>By juju2143</li>
+                    </ul>
+                    About</li>
+            </ul>
+        </nav>
+        <audio id="correct" src="correct.wav"></audio>
+        <audio id="incorrect" src="incorrect.wav"></audio>
+        <input type="text" id="current" class="score" value="0" />
+        <input type="text" id="left" class="score" value="0" />
+        <input type="text" id="right" class="score" value="0" />
+        <div id="answers"></div>
+        <div id="bonus" class="bonus">Double Points</div>
+    </body>
+</html>

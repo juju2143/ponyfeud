@@ -1,0 +1,64 @@
+body
+{
+  background-color: rgb(254,158,216);
+}
+.x0
+{
+  background-image: url("Resources/Twi Castle/panelbg.png");
+}
+.x1
+{
+  background-image: url("Resources/Twi Castle/panelbgx.png");
+}
+.x2
+{
+  background-image: url("Resources/Twi Castle/panelbgxx.png");
+}
+.x3
+{
+  background-image: url("Resources/Twi Castle/panelbgxxx.png");
+}
+.score
+{
+  background-image: url("Resources/Twi Castle/pointsBackground.png");
+}
+.answer:nth-of-type(8n+1)
+{
+  background-image: url("Resources/Twi Castle/background1.png");
+}
+.answer:nth-of-type(8n+2)
+{
+  background-image: url("Resources/Twi Castle/background2.png");
+}
+.answer:nth-of-type(8n+3)
+{
+  background-image: url("Resources/Twi Castle/background3.png");
+}
+.answer:nth-of-type(8n+4)
+{
+  background-image: url("Resources/Twi Castle/background4.png");
+}
+.answer:nth-of-type(8n+5)
+{
+  background-image: url("Resources/Twi Castle/background5.png");
+}
+.answer:nth-of-type(8n+6)
+{
+  background-image: url("Resources/Twi Castle/background6.png");
+}
+.answer:nth-of-type(8n+7)
+{
+  background-image: url("Resources/Twi Castle/background7.png");
+}
+.answer:nth-of-type(8n+8)
+{
+  background-image: url("Resources/Twi Castle/background8.png");
+}
+#answers .shown
+{
+  background-image: url("Resources/Twi Castle/answerBackground.png");
+}
+#bonus
+{
+  background-image: url("Resources/Twi Castle/pointModBackground.png");
+}
