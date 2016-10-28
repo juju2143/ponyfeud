@@ -8,6 +8,6 @@ Controls
 --------
 - x - Add incorrect answer
 - z - Cycle through multipliers
-- a - Give current round points to left
-- s - Give current round points to right
+- c - Give current round points to left
+- v - Give current round points to right
 - number keys - Reveal the corresponding survey answer
